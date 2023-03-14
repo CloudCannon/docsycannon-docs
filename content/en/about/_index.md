@@ -2,12 +2,24 @@
 _schema: default
 title: About
 linkTitle: About
+description: About DocsyCannon docs
 menu:
   main:
     weight: 1
 content_blocks:
   - _bookshop_name: section/lead
     color: primary
+    height: auto
+    text: >-
+      This is the technical documentation for DocsyCannon. DocsyCannon is a Hugo
+      template based on the popular Docsy theme, meant to be filled out using
+      the CloudCannon CMS.<br><br>DocsyCannon is aimed to make the creation of
+      technical documentation sites easy and accessible regardless of whether
+      you are a developer or an editor.
+    heading: What is DocsyCannon?
+    id:
+  - _bookshop_name: section/lead
+    color: dark
     height: auto
     text: >-
       A technical documentation site is a website that your users can visit to
@@ -53,18 +65,16 @@ content_blocks:
       left_heading: Learn and Connect
       left_sub_heading: 'Using or want to use Docsy? Find out more here:'
       links:
-        - name: Documentation
-          url: https://example.org/mail
-          icon: fa fa-envelope
-          desc: Documentation for DocsyCannon made using DocsyCannon
-        - name: GitHub
-          url: /
-          icon: fab fa-github
-          desc: The repository containing the DocsyCannon template
         - name: CloudCannon
           url: https://cloudcannon.com/
           icon: fa fa-cloud
-          desc: Host and edit your site on CloudCannon for full editing experience
+          desc: >-
+            Host and edit your site on CloudCannon with their Content Management
+            System.
+        - name: GitHub
+          url: https://example.org/
+          icon: fab fa-github
+          desc: The repository containing a template for you to get started.
       conclusion:
         conclusion_text:
         conclusion_link:
@@ -77,8 +87,14 @@ content_blocks:
         conclusion_link:
         conclusion_link_text:
       links:
-        - name: GitHub
+        - name: Docs Feedback
           url: https://github.com/google/docsy
           icon: fab fa-github
-          desc: Development takes place here!
+          desc: 'Let us know of any issues or improvements to these docs. '
+        - name: Template Feedback
+          url: https://github.com/google/docsy
+          icon: fab fa-github
+          desc: >-
+            Let us know of any issues or improvements to the DocsyCannon
+            template. 
 ---

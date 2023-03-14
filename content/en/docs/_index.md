@@ -2,19 +2,9 @@
 _schema: home
 title: Documentation
 linkTitle: Documentation
-description: The documentation section of DocsyCannon
+description: The documentation section of the DocsyCannon Docs
 menu:
   main:
     weight: 20
 ---
-{{% pageinfo color="primary" %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
-
-This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project.
-
-For large documentation sets we recommend adding content under the headings in this section, though if some or all of them don’t apply to your project feel free to remove them or add your own. You can see an example of a smaller Docsy documentation site in the [Docsy User Guide](https://docsy.dev/docs/), which lives in the [Docsy theme repo](https://github.com/google/docsy/tree/master/userguide) if you'd like to copy its docs section.
-
-Other content such as marketing material, case studies, and community updates should live in the [About](/about/) and [Community](/community/) pages.
-
-Find out how to use the Docsy theme in the [Docsy User Guide](https://docsy.dev/docs/). You can learn more about how to organize your documentation (and how we organized this site) in [Organizing Your Content](https://docsy.dev/docs/best-practices/organizing-content/).
+This is the technical documentation for DocsyCannon - the Docsy template for [Hugo](https://gohugo.io/), configured for use in CloudCannon.&nbsp;<br><br>DocsyCannon uses CloudCannon's Content Management System to provide a way to build Documentation sites without needing to touch any code. However, if you have developer experience or work in a team of developers and editors, you can further customise your page building/ documentation writing to suit your needs.

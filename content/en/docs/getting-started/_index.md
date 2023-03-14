@@ -2,15 +2,16 @@
 _schema: index
 title: Getting Started
 linkTitle: Getting Started
-description: How to get started using the DocsyCannon template
-weight: 1
+weight: 2
+description: What does your user need to know to try your project?
 categories:
   - Getting Started
 tags:
+  - Install
+  - Start
   - Getting Started
-  - Forking
   - Template
-  - Installation
+  - Build
 ---
 A simple way to get started is to use this project as a template, which gives you a site project that is set up and ready to use. To do this:
 
