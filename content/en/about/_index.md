@@ -12,14 +12,31 @@ content_blocks:
     height: auto
     text: >-
       This is the technical documentation for DocsyCannon. DocsyCannon is the
-      Hugo theme Docsy, configured to be live editable in CloudCannon's Content
-      Management System.&nbsp;
+      Hugo theme Docsy, configured to be live editable in CloudCannon's
+      **Content Management System**.
 
 
-      <br><br>DocsyCannon allows you to create technical documentation sites
-      without having any developer experience, or provides developers a way to
-      work with content editors.
+      DocsyCannon allows you to create technical documentation sites without
+      having any developer experience. It also serves as a good starting point
+      for developers who want to build their own customised documentation
+      workflow for content editing in a CMS.
     heading: What is DocsyCannon?
+    id:
+  - _bookshop_name: section/lead
+    color: dark
+    height: auto
+    text: >-
+      This template allows you to start writing documentation 'out of the box'.
+      Write docs and blog posts in a text editor, with the ability to insert
+      images, videos, links, iframes, swagger docs, highlight code, write with
+      formulae and more.&nbsp;
+
+
+      Build out other pages such as your home page or an 'about' page with
+      Bookshop. Bookshop defines conventions for writing components for Hugo and
+      allows you to build pages out of these components. Use the ones provided,
+      or use this template as a a starting point for building your own.
+    heading: Why use this template?
     id:
   - _bookshop_name: section/lead
     color: dark
@@ -61,23 +78,27 @@ content_blocks:
       addition to your documentation, your site might also contain material like
       contact information, a blog, or information about how to contribute to the
       project.
-    heading: So what’s a technical documentation site?
+    heading: So what is a technical documentation site?
     id:
   - _bookshop_name: section/community_links
     left:
       left_heading: Learn and Connect
-      left_sub_heading: 'Using or want to use Docsy? Find out more here:'
+      left_sub_heading: 'Using or want to use DocsyCannon? Find out more here:'
       links:
+        - name: GitHub
+          url: https://github.com/CloudCannon/docsycannon-template
+          icon: fab fa-github
+          desc: The repository containing a template for you to get started.
         - name: CloudCannon
           url: https://cloudcannon.com/
           icon: fa fa-cloud
           desc: >-
             Host and edit your site on CloudCannon with their Content Management
             System.
-        - name: GitHub
-          url: https://example.org/
-          icon: fab fa-github
-          desc: The repository containing a template for you to get started.
+        - name: Bookshop
+          url: https://github.com/CloudCannon/bookshop/blob/main/guides/hugo.adoc
+          icon: fa fa-cloud
+          desc: Discussion and help from your fellow users
       conclusion:
         conclusion_text:
         conclusion_link:
@@ -91,13 +112,21 @@ content_blocks:
         conclusion_link_text:
       links:
         - name: Docs Feedback
-          url: https://github.com/google/docsy
+          url: https://github.com/CloudCannon/docsycannon-docs/issues
           icon: fab fa-github
           desc: 'Let us know of any issues or improvements to these docs. '
         - name: Template Feedback
-          url: https://github.com/google/docsy
+          url: https://github.com/CloudCannon/docsycannon-template/issues
           icon: fab fa-github
           desc: >-
             Let us know of any issues or improvements to the DocsyCannon
             template. 
+        - name: Docsy
+          url: https://github.com/google/docsy
+          icon: fab fa-github
+          desc: Contribute to the original project.
+        - name: DocsyCannon
+          url: https://github.com/CloudCannon/docsycannon-template/pulls
+          icon: fab fa-github
+          desc: Contribute to DocsyCannon.
 ---

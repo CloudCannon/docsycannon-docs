@@ -2,7 +2,7 @@
 _schema: index
 title: Diagrams and Formulae
 linkTitle: Diagrams and Formulae
-description: How to use Latex and Katex in DocsyCAnnon
+description: How to use Latex and Katex in DocsyCannon
 weight: 8
 categories:
   - Diagrams
@@ -10,7 +10,6 @@ categories:
 tags:
   - Diagrams
   - Formulae
-  - Scientific Notation
   - Chemistry
   - Mathematics
 ---

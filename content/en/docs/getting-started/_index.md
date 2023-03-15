@@ -3,7 +3,7 @@ _schema: index
 title: Getting Started
 linkTitle: Getting Started
 weight: 2
-description: What does your user need to know to try your project?
+description: How to get started writing documentation with DocsyCannon
 categories:
   - Getting Started
 tags:
@@ -15,7 +15,7 @@ tags:
 ---
 ## Use as template
 
-The simplest way to get started is to use DocsyCannon as a template, which gives you a site project that is set up and ready to fill in with your own content. To do this:
+Use DocsyCannon as a template, which gives you a site project that is set up and ready to fill in with your own content. To do this:
 
 1\. Click **Use this template** on <a target="_blank" rel="noopener" href="https://github.com/tomrcc/docsycannon-template">GitHub</a>
 
@@ -34,23 +34,23 @@ If you have a site already using Docsy as a theme, and want to migrate over to D
 Create a new site using the template and replace the provided skeleton `content` folder with your own `content` folder. This should work automatically, however for non-content pages (ie. not docs or blog pages) such as the homepage or an 'about' page, some work may need to be done to convert the content to Bookshop syntax. Consider this classic Docsy homepage content file:
 
 ```html
-{% raw %}---
+---
 title: "Goldydocs"
 linkTitle: "Goldydocs"
 ---
 
-{{&lt; blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" color="orange" &gt;}}
+{{&amp;lt; blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" color="orange" &amp;gt;}}
 <div class="mx-auto">
-  <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{&lt; relref "/docs" &gt;}}">
+  <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{&amp;lt; relref "/docs" &amp;gt;}}">
     Learn More <i class="fas fa-arrow-alt-circle-right ml-2"></i>
   </a>
   <a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/google/docsy-example">
     Download <i class="fab fa-github ml-2 "></i>
   </a>
   <p class="lead mt-5">Porridge temperature assessment - in the cloud!</p>
-  {{&lt; blocks/link-down color="info" &gt;}}
+  {{&amp;lt; blocks/link-down color="info" &amp;gt;}}
 </div>
-{{&lt; /blocks/cover &gt;}}
+{{&amp;lt; /blocks/cover &amp;gt;}}
 
 {{% blocks/lead color="primary" %}}
 Goldydocs provides a single web UI providing visibility into porridge temperature, chair size, and bed softness metrics! You can even find out who's been eating **your** porridge.
@@ -58,7 +58,7 @@ Goldydocs provides a single web UI providing visibility into porridge temperatur
 (Sadly, Goldydocs isn't a real project, but you can use this site as an example to create your own real websites with [Docsy](https://docsy.dev))
 {{% /blocks/lead %}}
 
-{{&lt; blocks/section color="dark" &gt;}}
+{{&amp;lt; blocks/section color="dark" &amp;gt;}}
 {{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
 The Goldydocs UI now shows chair size metrics by default.
 
@@ -73,7 +73,7 @@ We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributi
 For announcement of latest features etc.
 {{% /blocks/feature %}}
 
-{{&lt; /blocks/section &gt;}}{% endraw %}
+{{&amp;lt; /blocks/section &amp;gt;}}
 ```
 
 Docsy uses a similar concept to Bookshop, in that individual components of the page are broken down into 'blocks'. If you want this content to be editable on CloudCannon, you must add these as Bookshop components in the page's front matter instead, like the example below.
