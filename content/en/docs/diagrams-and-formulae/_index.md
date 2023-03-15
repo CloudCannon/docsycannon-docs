@@ -14,9 +14,9 @@ tags:
   - Chemistry
   - Mathematics
 ---
-## \## \\\\(\\LaTeX\\\\) support with \\\\(\\KaTeX\\\\)
+## Latex support with Katex
 
-With \\\\(\\KaTeX\\\\) support enabled in Docsy, you can include complex mathematical formulae into your web page, either inline or centred on its own line. Since \\\\(\\KaTeX\\\\) relies on server side rendering, it produces the same output regardless of your browser or your environment. Formulae can be shown either inline or in display mode:
+With Katex support enabled in Docsy, you can include complex mathematical formulae into your web page, either inline or centred on its own line. Since Katex relies on server side rendering, it produces the same output regardless of your browser or your environment. Formulae can be shown either inline or in display mode:
 
 The probability of getting \\(k\\) heads when flipping \\(n\\) coins is:
 
@@ -37,9 +37,9 @@ $\\ce\{Zn^2+ &lt;=&gt;\[+ 2OH-\]\[+ 2H+\] $\\underset\{\\text\{amphoteres Hydrox
 
 $\\ce\{Hg^2+ -&gt;\[I-\] $\\underset\{\\mathrm\{red\}\}\{\\ce\{HgI2\}\}$ -&gt;\[I-\] $\\underset\{\\mathrm\{red\}\}\{\\ce\{\[Hg^\{II\}I4\]^2-\}\}$\}$
 
-## Activating and configuring \\\\(\\KaTeX\\\\) support
+## Activating and configuring Katex support
 
-\\\\(\\KaTeX\\\\) support will be disabled by default. To enable it uncomment the Katex Support section in the Hugo config.yaml file.
+Katex support will be disabled by default. To enable it uncomment the Katex Support section in the Hugo config.yaml file.
 
 ```yaml
 #  KaTeX support
