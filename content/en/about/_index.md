@@ -11,11 +11,14 @@ content_blocks:
     color: primary
     height: auto
     text: >-
-      This is the technical documentation for DocsyCannon. DocsyCannon is a Hugo
-      template based on the popular Docsy theme, meant to be filled out using
-      the CloudCannon CMS.<br><br>DocsyCannon is aimed to make the creation of
-      technical documentation sites easy and accessible regardless of whether
-      you are a developer or an editor.
+      This is the technical documentation for DocsyCannon. DocsyCannon is the
+      Hugo theme Docsy, configured to be live editable in CloudCannon's Content
+      Management System.&nbsp;
+
+
+      <br><br>DocsyCannon allows you to create technical documentation sites
+      without having any developer experience, or provides developers a way to
+      work with content editors.
     heading: What is DocsyCannon?
     id:
   - _bookshop_name: section/lead
