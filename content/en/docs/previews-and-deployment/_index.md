@@ -3,7 +3,7 @@ _schema: index
 title: Previews and Deployment
 linkTitle: Previews and Deployment
 weight: 10
-description: Deploying your DocsyCannon site.
+description: Deploying your DocsyCannon site to CloudCannon.
 categories:
   - Deployment
   - Development
@@ -17,7 +17,7 @@ tags:
 ---
 ## Deployment with CloudCannon
 
-DocsyCannon is a forked version of Docsy, with configuration for CloudCannon's Content Management System. As such, once built on CloudCannon, your site will be ready to start writing documentation with their CMS straight away. Below is a guide on how to deploy your site with CloudCannon:
+DocsyCannon clomewith configuration for CloudCannon's Content Management System. As such, once built on CloudCannon, your site will be ready to start writing documentation with their CMS straight away. Below is a guide on how to deploy your site with CloudCannon:
 
 {{< iframe src="https://cloudcannon.com/documentation/guides/hugo-starter-guide/" width="100%" tryautoheight=false style="min-height:98vh; border:none;" sandbox=false name="CloudCannon Setup" sub="Your browser cannot display embedded frames. You can access the embedded page via the following link:" >}}
 
