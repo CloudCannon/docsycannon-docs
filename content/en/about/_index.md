@@ -28,14 +28,20 @@ content_blocks:
     text: >-
       This template allows you to start writing documentation 'out of the box'.
       Write docs and blog posts in a text editor, with the ability to insert
-      images, videos, links, iframes, swagger docs, highlight code, write with
-      formulae and more.&nbsp;
+      code snippets, images, videos, links, formulae and more.&nbsp;
 
 
       Build out other pages such as your home page or an 'about' page with
       Bookshop. Bookshop defines conventions for writing components for Hugo and
       allows you to build pages out of these components. Use the ones provided,
       or use this template as a a starting point for building your own.
+
+
+      DocsyCannon uses&nbsp;[Pagefind](https://pagefind.app/), so that your site
+      comes with search ready to go as soon as you finish your build on
+      CloudCannon. Pagefind is a fully static search library that aims to
+      perform well on large sites, while using as little of your users’
+      bandwidth as possible, and without hosting any infrastructure.
     heading: Why use this template?
     id:
   - _bookshop_name: section/lead
