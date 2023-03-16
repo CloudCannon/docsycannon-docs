@@ -28,7 +28,7 @@ content_blocks:
     text: >-
       This template allows you to start writing documentation 'out of the box'.
       Write docs and blog posts in a text editor, with the ability to insert
-      code snippets, images, videos, links, formulae and more.&nbsp;
+      code snippets, images, videos, links, formulae and more.
 
 
       Build out other pages such as your home page or an 'about' page with
