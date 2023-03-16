@@ -35,8 +35,6 @@
     @import url($web-font-path);
 }
 
-
-
 footer {
     min-height: 150px;
 
@@ -49,6 +47,7 @@ a {
     color: $links;
 }
 
+// Adjusting header stylings
 .display-1 {
     font-size: calc(1.625rem + 4.5vw);
     font-weight: 300;
@@ -59,6 +58,7 @@ a {
     }
 }
 
+// Pagefind search styling 
 #search {
     width: 100%;
 }
@@ -67,13 +67,13 @@ a {
     min-width: 0 !important;
     overflow: hidden;
 }
-    
-// Adjust anchors vs the fixed menu.
+
 @include media-breakpoint-up(md) {
+    // Padding for sidebars
     .td-404 main,.td-main main {
         padding-top: 6.5rem;
     }
-
+    // Adjust anchors vs the fixed menu.
     .td-offset-anchor:target {
         display: block;
         position: relative;

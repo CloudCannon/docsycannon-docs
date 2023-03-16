@@ -3,7 +3,7 @@
 {{ $shouldDelayActive := ge (len .Site.Pages) $sidebarCacheLimit -}}
 <div id="td-sidebar-menu" class="td-sidebar__inner{{ if $shouldDelayActive }} d-none{{ end }}">
   <nav 
-    class="collapse {{ if .Site.Data.sidebar.sidebar_search_disable -}} mt-3 {{ end }} td-sidebar-nav{{ if .Site.Data.sidebar.sidebar_menu_foldable }} foldable-nav{{ end }}" 
+    class="collapse td-sidebar-nav{{ if .Site.Data.sidebar.sidebar_menu_foldable }} foldable-nav{{ end }}" 
     id="td-section-nav">
     <button 
       class="btn btn-link td-sidebar__toggle d-md-none m-0 p-0 ms-3 fas fa-xmark" 
