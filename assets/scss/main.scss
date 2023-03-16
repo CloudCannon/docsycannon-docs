@@ -35,6 +35,8 @@
     @import url($web-font-path);
 }
 
+
+
 footer {
     min-height: 150px;
 
@@ -57,8 +59,21 @@ a {
     }
 }
 
+#search {
+    width: 100%;
+}
+
+.pagefind-ui__result-excerpt {
+    min-width: 0 !important;
+    overflow: hidden;
+}
+    
 // Adjust anchors vs the fixed menu.
 @include media-breakpoint-up(md) {
+    .td-404 main,.td-main main {
+        padding-top: 6.5rem;
+    }
+
     .td-offset-anchor:target {
         display: block;
         position: relative;

@@ -1,2 +1,3 @@
-gcs_engine_id: 4000904be408c49c7
+pagefind: true
+gcs_engine_id:
 algolia_docsearch: false

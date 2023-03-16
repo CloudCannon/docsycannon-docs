@@ -38,6 +38,10 @@
       justify-content: space-between;
   }
 
+  &-nav-scroll {
+    margin-right: -1.5rem;
+  }
+
   .navbar-brand {
       text-transform: none;
       text-align: middle;
@@ -69,8 +73,7 @@
   }
 
   @include media-breakpoint-down(lg) {
-      padding-right: .5rem;
-      padding-left: .75rem;
+      padding-inline: 1.5rem;
 
       .td-navbar-nav-scroll {
           max-width: 100%;

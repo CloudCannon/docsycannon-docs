@@ -14,11 +14,11 @@ Docsy and DocsyCannon are open source projects and love getting patches and cont
 
 ## Contributing to Docsy
 
-The Docsy theme lives in&nbsp;[https://github.com/google/docsy](https://github.com/google/docsy).
+The Docsy theme lives&nbsp;[here](https://github.com/google/docsy).
 
 ## Contributing to DocsyCannon
 
-The DocsyCannon theme lives in&nbsp;[https://github.com/CloudCannon/docsycannon-template](https://github.com/google/docsy)
+The DocsyCannon theme lives&nbsp;[here](https://github.com/CloudCannon/docsycannon-template)
 
 ### Contributor License Agreement
 
