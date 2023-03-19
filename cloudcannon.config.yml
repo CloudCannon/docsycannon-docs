@@ -589,7 +589,7 @@ collections_config:
         path: schemas/docs/default.md
       index:
         name: Docs Section
-        path: schemas/docs/default.md
+        path: schemas/docs/index.md
         create:
           path: '[relative_base_path]/{title|slugify}/_index.md'
     _enabled_editors:
