@@ -108,7 +108,7 @@ imaging:
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
 services:
   googleAnalytics:
-    id: UA-00000000-0
+    id: G-G2SFJSD0Z4
 
 # Comment out if you don't want the "print entire section" link enabled.
 outputs:
