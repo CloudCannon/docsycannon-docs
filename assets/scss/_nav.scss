@@ -36,10 +36,6 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
-
-      &-nav-scroll {
-        margin-right: -1.5rem;
-      }
   }
 
   .navbar-brand {
@@ -122,6 +118,10 @@
           padding-right: 0.5em;
       }
   }
+}
+
+.td-sidebar-nav>.td-sidebar-nav__section {
+    padding-inline-start: 0;
 }
 
 // Foldable sidebar menu
@@ -228,6 +228,10 @@ nav.foldable-nav {
     .dropdown-menu {
         left: auto !important;
         right: 0 !important;
+    }
+    
+    .dropdown {
+        padding-inline-start: 1rem;
     }
 }
 
